@@ -1,0 +1,63 @@
+﻿1.
+        sh is located in /usr/bin/sh
+                commands 
+                cd /usr/bin, ls -al sh
+        
+        Sleep is located in /usr/local/cs/bin/sleep
+                find / -name sleep
+
+
+        Type is located in /usr/bin/type
+                find / -name type
+                
+2.  Sed is a stream editor for filtering and transforming text, seq prints a sequence of numbers
+                Cd /usr/bin
+                Ls -al se*
+                Man sed, man seq
+
+
+3. Cd /usr/local/cs/emacs-28.2/bin/emacs-28.2
+        Cd /usr/local/cs/bin
+        Ls -al emacs
+
+
+4. /usr/bin/gcc is 8.5.0, plain gcc is 12.2.0. They are different versions because they are located in different directories.
+        Which gcc
+        Gcc -v
+        /usr/bin/gcc -v
+
+
+5. u+sx adds execute permission to user and sets user ID to file’s owner when executed
+o-w removes write permissions for “Other”
+
+
+6. 
+find /usr/local/cs -type d -mtime +14 -ls
+
+
+7. 259 symbolic links
+Cd /usr/bin
+find . -type l -ls | wc -l
+
+
+8. detect_ppa
+ls /usr/lib64
+ls -alt
+
+
+9. Transpose-sentences, transpose-paragraphs, transpose-regions, transpose-chars, transpose-words, transpose-sexps, transpose-lines
+C-x r
+C-s transpose
+C-s 
+
+
+10. Yanking inserts text that is stored in the kill ring. C-y
+C-x r
+C-s yank
+
+
+11. The output of the dired command has many more entries. The output of dired also begins with the first two entries as . and .. which ls -l does not output. 
+
+
+12. 
+ps -ejH
